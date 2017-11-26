@@ -14,8 +14,8 @@ Route::group(['prefix' => 'api/v1'], function() {
         'uses' => 'AuthController@store'
     ]);
 
-    Route::post('user/sigin', [
-        'uses' => 'AuthController@sigin'
+    Route::post('user/signin', [
+        'uses' => 'AuthController@signin'
     ]);
 
 });
