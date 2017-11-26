@@ -6,6 +6,11 @@ use Illuminate\Http\Request;
 
 class MeetingController extends Controller
 {
+    public function __construct()
+    {
+
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +18,7 @@ class MeetingController extends Controller
      */
     public function index()
     {
-        //
+        echo 'index';
     }
 
 
@@ -25,7 +30,7 @@ class MeetingController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        echo 'store';
     }
 
     /**
@@ -36,7 +41,7 @@ class MeetingController extends Controller
      */
     public function show($id)
     {
-        //
+        echo 'show 1';
     }
 
 
@@ -49,7 +54,7 @@ class MeetingController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        echo 'update';
     }
 
     /**
@@ -60,6 +65,6 @@ class MeetingController extends Controller
      */
     public function destroy($id)
     {
-        //
+        echo 'destroy';
     }
 }

@@ -15,7 +15,7 @@ class RegistrationController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        echo 'registration store';
     }
 
 
@@ -27,6 +27,6 @@ class RegistrationController extends Controller
      */
     public function destroy($id)
     {
-        //
+        echo 'registration destroy';
     }
 }
