@@ -69,7 +69,7 @@ class RegistrationController extends Controller
         $meeting->users()->detach();
 
         $response = [
-            'msg' =>'User registered for meeting',
+            'msg' =>'User unregistered for meeting',
             'meeting' =>$meeting,
             'user' => 'tbd',
             'register' =>[
