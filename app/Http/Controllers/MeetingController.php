@@ -164,7 +164,7 @@ class MeetingController extends Controller
 
 
         $response = [
-            'msg' =>'Meeting updatedf',
+            'msg' =>'Meeting updated',
             'meetings' => $meeting
         ];
         return response()->json($response, 200);
