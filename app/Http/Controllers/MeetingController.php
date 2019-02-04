@@ -105,7 +105,7 @@ class MeetingController extends Controller
     {
         $meeting = Meeting::with('users')->where('id', $id)->firstOrFail();
         $meeting->view_meetings = [
-            'href' => 'api/v1/meeting/1',
+            'href' => '/api/v1/meeting',
             'method' => 'GET'
         ];
 
